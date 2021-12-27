@@ -73,7 +73,7 @@ function App() {
       {/* Generated display based on user selections above */}
       <h3 className="button-controls">Enjoy your turkey</h3>
       <PictureDisplay size={size} featherCount={featherCount} featherColors={featherColors} />
-      <Message size={size} />
+      <Message size={size} featherCount={featherCount} />
     </>
   );
 }
